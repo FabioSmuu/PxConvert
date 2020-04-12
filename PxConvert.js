@@ -10,6 +10,9 @@ function emTOpx(em = 0, base = 19.20) {
 function pxTOper(px = 0, tela = 1024) {
 	return (isNaN (px) || isNaN (base)) ? 'NaN' : px*100/tela + "em"
 }
+
+pxTOper(240) //Converte 240px para 23.4375%
+pxTOper(240, 1359) //Converte 240px para 17.660044150110377%
 */
 
 pxTOem(240) //Converte 240px para 12.5em
