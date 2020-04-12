@@ -5,6 +5,10 @@
 
 Eu estava desenvolvendo um dashboard responsivo e dinamico e senti a grande necessidade de usar esala **em** ao inves de **pixel** para deixar tudo em ordem, então resolvi criar [esta função](/PxConvert.js) super boba que faz somente isso, converte de escala **em** para **pixel** e de **pixel** para escala **em**.
 
+
+![N|Solid](https://i.imgur.com/6bOMyCB.gif)
+
+
 ### Como usar:
 Converter 240px para escala em
 ```js
