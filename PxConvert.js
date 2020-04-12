@@ -1,8 +1,8 @@
-function pxTOem(px = 0, base = 19.20) {
+function pxTOem(px = 0, base = 19.20) { //base padrão 16
 	return (isNaN (px) || isNaN (base)) ? 'NaN' : px/base + "em"
 }
 
-function emTOpx(em = 0, base = 19.20) {
+function emTOpx(em = 0, base = 19.20) { //base padrão 16
 	return (isNaN (em) || isNaN (base)) ? 'NaN' : em*base + "px"
 }
 
