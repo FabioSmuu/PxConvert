@@ -1,9 +1,9 @@
-# Repositorio de arquivos bla bla bla.
+# Repositorio de Calculo de escala
 
 [![N|Solid](https://i.imgur.com/mF9AKO0.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=fabinhoec2210@gmail.com&item_name=F%C3%A1bio&currency_code=BRL)
 
 
-Eu estava desenvolvendo um dashboard responsivo e dinamico e senti a grande necessidade de usar esala **em** ao inves de **pixel** para deixar tudo em ordem, então resolvi criar esta função super boba que faz somente isso, converte de escala **em** para **pixel** e de **pixel** para escala **em**.
+Eu estava desenvolvendo um dashboard responsivo e dinamico e senti a grande necessidade de usar esala **em** ao inves de **pixel** para deixar tudo em ordem, então resolvi criar [esta função](/PxConvert.js) super boba que faz somente isso, converte de escala **em** para **pixel** e de **pixel** para escala **em**.
 
 ### Como usar:
 Converter 240px para escala em
