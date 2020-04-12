@@ -20,10 +20,10 @@ cmd.question('# Base: ', base => {
 	cmd.close()
 })})})
 
-function pxTOem(px = 0, base = 19.20) {
+function pxTOem(px = 0, base = 16) {
 	return (isNaN (px) || isNaN (base)) ? '---' : px/base + "em"
 }
 
-function emTOpx(em = 0, base = 19.20) {
+function emTOpx(em = 0, base = 16) {
 	return (isNaN (em) || isNaN (base)) ? '---' : em*base + "px"
 }
