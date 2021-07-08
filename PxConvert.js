@@ -1,7 +1,6 @@
 //Para NodeJS
-const {createInterface} = require('readline')
-
-let cmd = createInterface({
+const {createInterface} = require('readline'),
+cmd = createInterface({
   input: process.stdin,
   output: process.stdout
 })
